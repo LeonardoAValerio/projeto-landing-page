@@ -200,6 +200,8 @@ tfoot td{
     display: flex;
     flex-flow: row wrap;
     gap: var(--gap);
+    width: 80%;
+    margin: 0 auto;
 }
 
 .form-grid legend{
@@ -219,7 +221,6 @@ tfoot td{
 
 .form-group input,
 .form-group textarea{
-    flex: 1 1 32rem;
     border: none;
     background-color: var(--white-color);
     padding: 1.5rem 2rem;
