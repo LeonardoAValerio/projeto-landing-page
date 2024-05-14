@@ -219,6 +219,7 @@ tfoot td{
 
 .form-group input,
 .form-group textarea{
+    flex: 1 1 32rem;
     border: none;
     background-color: var(--white-color);
     padding: 1.5rem 2rem;
@@ -274,6 +275,10 @@ tfoot td{
 }
 
 @media (max-width : 800px){
+    h2{
+        font-size: 5rem;
+    }
+
     .intro-content, .grid{
         grid-template-columns: 1fr;
     }
